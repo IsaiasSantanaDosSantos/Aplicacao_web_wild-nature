@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!--ICONS BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!-- CSS Local -->
+        <link rel="stylesheet" href="css/style.css">
+        <!--JavaScript BootStrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous" defer></script>
+        <!-- JavaScript local-->
+        <script src="js/script.js" defer></script>
+        <title>Tarefa 5</title>
+    </head>
+<body>
+    <!--NAVIGATION BAR-->
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="https://images.pexels.com/photos/7837732/pexels-photo-7837732.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Wild nature" class="image-fluid"><h1> Wild Nature</h1></a>
+            <button 
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            data-bs-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"> <!--O 'data-bs-target="#menu" seria o menu que vai esconder e aparecer no botão de hamburguer'-->
+                <!--Span com a classe do botão de hamburguer-->
+            </span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Earth Nature</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Aquatic Nature</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- sLIDER -->
+    <div class=" mb-4">
+        <div class="col">
+            <div 
+            class="carousel side" 
+            id="carousel" 
+            data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button 
+                class="active"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="0"
+                aria-current="true"
+                aria-label="Slide 1">
+                </button>
+                <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="1"
+                aria-current="true"
+                aria-label="Slide 2">
+                </button>
+                <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="2"
+                aria-current="true"
+                aria-label="Slide 3"
+                ></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/4534200/pexels-photo-4534200.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="WaterFall" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h2>The real natural bath</h2>
+                        <p>There's nothing better than washing in nature...</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="fall" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h2>Walk more than healthy</h2>
+                        <p>Nothing better than that morning walk side by side with nature...</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://images.pexels.com/photos/1552212/pexels-photo-1552212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="icy jungle" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h2>Who cares about the cold...</h2>
+                        <p>When yuu have everything in one place!</p>
+                    </div>
+                </div>
+            </div>
+            <button 
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button 
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
+        <div class="container mb-4 mt-4">
+            <div class="col-12 col-md-10 offset-md-1 gy-4" id="mini-banners">
+                <div class="row">
+                    <div class="col-12 col-md-3 par">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Bridge in the waterfall</h5>
+                                <img src="https://images.pexels.com/photos/3136711/pexels-photo-3136711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Bridge in the waterfall" class="image-fluid">
+                                <p class="card-text">Give yourself totally to the natural beauty... get inspired!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 impar">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Waterfall trail</h5>
+                                <img src="https://images.pexels.com/photos/2412298/pexels-photo-2412298.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Trall in the waterfall" class="image-fluid">
+                                <p class="card-text">Imagine yourself, in the middle of nanhã challenging yourself.... Challenge yourself!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 par">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Meet the unknowable</h5>
+                                <img src="https://images.pexels.com/photos/2387876/pexels-photo-2387876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="lake in the mountains" class="image-fluid">
+                                <p class="card-text">Let nature live in you... Allow yourself!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 impar">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Be strong</h5>
+                                <img src="https://images.pexels.com/photos/3848197/pexels-photo-3848197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Person in snow" class="image-fluid">
+                                <p class="card-text">Nature gives us the strength to go on forever... Seek your strength!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4"><h2>Wild Nature</h2></div>
+                        <div class="col-4" id="social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-youtube"></i>
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                <div class="col-12" id="footer-details">
+                    <div class="row">
+                        <div class="col-12 col-md-4" id="news-container">
+                            <h4>Fique por denytro das novidades</h4>
+                            <p class="secondary-color">Inscreva-se para saber em primeira mão</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Digite seu e-mail">
+                                </div>
+                                <button class="btn btn-dark" type="submit">Inscrever</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4" id="contact-container">
+                            <h4>Formas de contato</h4>
+                            <p class="secondary-color">(49)9999-9999</p>
+                            <p class="secondary-color">contato@wildnature.com</p>
+                        </div> 
+                        <div class="col-12 col-md-4" id="links-container">
+                            <div class="row">
+                                <h4>Você pode estar procurando por:</h4>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color">Projects</a></li>
+                                        <li><a href="#" class="secondary-color">Photo</a></li>
+                                        <li><a href="#" class="secondary-color">About</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color">Contratar</a></li>
+                                        <li><a href="#" class="secondary-color">Work us</a></li>
+                                        <li><a href="#" class="secondary-color">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                <!-- FOOTER BOTTOM-->
+                <div class="col-12" id="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">Wild Nature &copy; 2021</p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color">We do your project<i class="bi bi-heart"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
